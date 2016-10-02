@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarksCRMApp", "MarksCRMApp\MarksCRMApp.csproj", "{018E3D02-32C4-4D4E-AC6E-DB409A770901}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarksCRMApp.Tests", "MarksCRMApp.Tests\MarksCRMApp.Tests.csproj", "{DE585D75-E80A-4385-BCAE-FE52D60861FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarksCRMApp.Model", "MarksCRMApp.Model\MarksCRMApp.Model.csproj", "{8BD1281C-3161-40AE-85EC-C487AFDFD52E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarksCRMApp.Repository", "MarksCRMApp.Repository\MarksCRMApp.Repository.csproj", "{BD3A169F-309D-4AF2-8CA5-D6BFC931123B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarksCRMApp.Service", "MarksCRMApp.Service\MarksCRMApp.Service.csproj", "{6977A8D0-4E8F-48A5-BFAF-AF6B7E2D6A3F}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "MarksCRMApp.Database", "MarksCRMApp.Database\MarksCRMApp.Database.sqlproj", "{14D02715-4DBC-4E0E-906E-1102D773D37B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{018E3D02-32C4-4D4E-AC6E-DB409A770901}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{018E3D02-32C4-4D4E-AC6E-DB409A770901}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{018E3D02-32C4-4D4E-AC6E-DB409A770901}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{018E3D02-32C4-4D4E-AC6E-DB409A770901}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE585D75-E80A-4385-BCAE-FE52D60861FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE585D75-E80A-4385-BCAE-FE52D60861FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE585D75-E80A-4385-BCAE-FE52D60861FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE585D75-E80A-4385-BCAE-FE52D60861FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BD1281C-3161-40AE-85EC-C487AFDFD52E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BD1281C-3161-40AE-85EC-C487AFDFD52E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BD1281C-3161-40AE-85EC-C487AFDFD52E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BD1281C-3161-40AE-85EC-C487AFDFD52E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD3A169F-309D-4AF2-8CA5-D6BFC931123B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD3A169F-309D-4AF2-8CA5-D6BFC931123B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD3A169F-309D-4AF2-8CA5-D6BFC931123B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD3A169F-309D-4AF2-8CA5-D6BFC931123B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6977A8D0-4E8F-48A5-BFAF-AF6B7E2D6A3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6977A8D0-4E8F-48A5-BFAF-AF6B7E2D6A3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6977A8D0-4E8F-48A5-BFAF-AF6B7E2D6A3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6977A8D0-4E8F-48A5-BFAF-AF6B7E2D6A3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14D02715-4DBC-4E0E-906E-1102D773D37B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14D02715-4DBC-4E0E-906E-1102D773D37B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14D02715-4DBC-4E0E-906E-1102D773D37B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{14D02715-4DBC-4E0E-906E-1102D773D37B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14D02715-4DBC-4E0E-906E-1102D773D37B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14D02715-4DBC-4E0E-906E-1102D773D37B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
